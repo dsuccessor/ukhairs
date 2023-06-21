@@ -45,8 +45,8 @@ function loginCheck() {
         status : 'logged in'
     }
     sessionStorage.setItem('activeUser', JSON.stringify(loginSession))
-    //window.location('./index.html')
-    return true
+    window.location('./index.html')
+    //return true
     }
     else {
     alert('Username and password is incorrect')
