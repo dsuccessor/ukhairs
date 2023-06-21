@@ -45,6 +45,7 @@ function loginCheck() {
         status : 'logged in'
     }
     sessionStorage.setItem('activeUser', JSON.stringify(loginSession))
+    window.location('index.html')
     return true
     }
     else {
